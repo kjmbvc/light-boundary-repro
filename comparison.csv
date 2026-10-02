@@ -1,0 +1,4 @@
+surface,sample_count,before_min_lx,before_mean_lx,before_max_lx,after_min_lx,after_mean_lx,after_max_lx,mean_reduction_pct,minimum_pointwise_retention_pct,maximum_increase_lx,mean_method
+window_left,2601,8.626686677862503,12.809688622480124,17.89070578030356,0.0,0.0,0.0,100.0,0.0,-8.626686677862503,arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean
+window_right,2601,8.626686677862505,12.80968862248012,17.890705780303556,0.0,0.0,0.0,100.0,0.0,-8.626686677862505,arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean
+walkway,3645,5.96803072116524,16.0705404762042,26.51448543317187,5.96803072116524,16.0705404762042,26.51448543317187,0.0,100.0,0.0,arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean

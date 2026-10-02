@@ -1,0 +1,24 @@
+{
+  "physics_tests_run": 14,
+  "physics_failures": 0,
+  "physics_errors": 0,
+  "physics_passed": true,
+  "synthetic_angle_cases_passed": 8,
+  "scope": "Physics tests check model implementation; angle tests do not calculate lux.",
+  "physics_test_names": [
+    "test_absorbing_shield_never_increases_direct_light",
+    "test_analytic_point_limit",
+    "test_full_and_no_occlusion",
+    "test_intersection_beyond_target_is_not_occlusion",
+    "test_invalid_inputs",
+    "test_inverse_square_point_limit",
+    "test_linear_flux_scaling",
+    "test_nominal_geometry_does_not_overlap_source",
+    "test_one_sided_source_and_receiver",
+    "test_partial_occlusion_approaches_half",
+    "test_patch_flux_conservation",
+    "test_segment_intersection_and_rectangle_bounds",
+    "test_source_and_receiver_cosines",
+    "test_source_shield_overlap_rejected"
+  ]
+}

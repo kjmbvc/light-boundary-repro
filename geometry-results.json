@@ -1,0 +1,127 @@
+{
+  "cases": [
+    {
+      "case": "separated",
+      "window_deg": [
+        10,
+        28
+      ],
+      "walkway_deg": [
+        36,
+        72
+      ],
+      "margin_deg": 2,
+      "shield_interval_deg": [
+        8,
+        30
+      ],
+      "angular_conflict": false,
+      "result": "candidate_for_3d_and_field_validation",
+      "installation_approved": false,
+      "illuminance_simulated": false,
+      "passed": true
+    },
+    {
+      "case": "overlap",
+      "window_deg": [
+        25,
+        48
+      ],
+      "walkway_deg": [
+        36,
+        72
+      ],
+      "margin_deg": 2,
+      "shield_interval_deg": [
+        23,
+        50
+      ],
+      "angular_conflict": true,
+      "result": "stop_and_redesign",
+      "installation_approved": false,
+      "illuminance_simulated": false,
+      "passed": true
+    },
+    {
+      "case": "touching",
+      "window_deg": [
+        10,
+        34
+      ],
+      "walkway_deg": [
+        36,
+        72
+      ],
+      "margin_deg": 2,
+      "shield_interval_deg": [
+        8,
+        36
+      ],
+      "angular_conflict": true,
+      "result": "stop_and_redesign",
+      "installation_approved": false,
+      "illuminance_simulated": false,
+      "passed": true
+    },
+    {
+      "case": "margin_creates_conflict",
+      "window_deg": [
+        10,
+        32
+      ],
+      "walkway_deg": [
+        36,
+        72
+      ],
+      "margin_deg": 5,
+      "shield_interval_deg": [
+        5,
+        37
+      ],
+      "angular_conflict": true,
+      "result": "stop_and_redesign",
+      "installation_approved": false,
+      "illuminance_simulated": false,
+      "passed": true
+    },
+    {
+      "case": "shield_contains_walkway",
+      "window_deg": [
+        10,
+        70
+      ],
+      "walkway_deg": [
+        36,
+        60
+      ],
+      "margin_deg": 0,
+      "shield_interval_deg": [
+        10,
+        70
+      ],
+      "angular_conflict": true,
+      "result": "stop_and_redesign",
+      "installation_approved": false,
+      "illuminance_simulated": false,
+      "passed": true
+    },
+    {
+      "case": "reversed",
+      "invalid_input_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "nan",
+      "invalid_input_rejected": true,
+      "passed": true
+    },
+    {
+      "case": "outside",
+      "invalid_input_rejected": true,
+      "passed": true
+    }
+  ],
+  "passed": 8,
+  "all_inputs": "synthetic assumed angles; no real location or measurement",
+  "claim_limit": "A non-overlapping interval is only a candidate. A 2D point-light model cannot approve field installation or establish lux/glare/energy savings."
+}

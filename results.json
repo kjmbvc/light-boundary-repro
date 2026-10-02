@@ -1,0 +1,487 @@
+{
+  "model": "finite one-sided Lambertian area source; direct illuminance only",
+  "scenario_status": "assumed geometry, not measured",
+  "source_grid": 31,
+  "inputs_sha256": "17a1a1a750cef83cc4a881466d36ca69187cc5d6e94647838ddb9559bd149cf7",
+  "source_shield_overlap": false,
+  "all_receivers_after_le_before": true,
+  "metrics": [
+    {
+      "surface": "window_left",
+      "sample_count": 2601,
+      "before_min_lx": 8.626686677862503,
+      "before_mean_lx": 12.809688622480124,
+      "before_max_lx": 17.89070578030356,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.626686677862503,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean"
+    },
+    {
+      "surface": "window_right",
+      "sample_count": 2601,
+      "before_min_lx": 8.626686677862505,
+      "before_mean_lx": 12.80968862248012,
+      "before_max_lx": 17.890705780303556,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.626686677862505,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean"
+    },
+    {
+      "surface": "walkway",
+      "sample_count": 3645,
+      "before_min_lx": 5.96803072116524,
+      "before_mean_lx": 16.0705404762042,
+      "before_max_lx": 26.51448543317187,
+      "after_min_lx": 5.96803072116524,
+      "after_mean_lx": 16.0705404762042,
+      "after_max_lx": 26.51448543317187,
+      "mean_reduction_pct": 0.0,
+      "minimum_pointwise_retention_pct": 100.0,
+      "maximum_increase_lx": 0.0,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean"
+    }
+  ],
+  "source_grid_convergence": [
+    {
+      "source_grid": 13,
+      "patches": 169,
+      "surface": "window_left",
+      "receiver_grid": [
+        51,
+        51
+      ],
+      "before_mean_lx": 12.809699854929903,
+      "after_mean_lx": 0.0,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 2.1083778975139467e-05,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "source_grid": 13,
+      "patches": 169,
+      "surface": "window_right",
+      "receiver_grid": [
+        51,
+        51
+      ],
+      "before_mean_lx": 12.809699854929901,
+      "after_mean_lx": 0.0,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 2.1083778971586753e-05,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "source_grid": 13,
+      "patches": 169,
+      "surface": "walkway",
+      "receiver_grid": [
+        81,
+        45
+      ],
+      "before_mean_lx": 16.07055124940541,
+      "after_mean_lx": 16.07055124940541,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 4.975905353177268e-05,
+      "max_abs_after_difference_to_reference_lx": 4.975905353177268e-05
+    },
+    {
+      "source_grid": 21,
+      "patches": 441,
+      "surface": "window_left",
+      "receiver_grid": [
+        51,
+        51
+      ],
+      "before_mean_lx": 12.809691448669122,
+      "after_mean_lx": 0.0,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 5.304862874311311e-06,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "source_grid": 21,
+      "patches": 441,
+      "surface": "window_right",
+      "receiver_grid": [
+        51,
+        51
+      ],
+      "before_mean_lx": 12.809691448669126,
+      "after_mean_lx": 0.0,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 5.304862877864025e-06,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "source_grid": 21,
+      "patches": 441,
+      "surface": "walkway",
+      "receiver_grid": [
+        81,
+        45
+      ],
+      "before_mean_lx": 16.070543186838314,
+      "after_mean_lx": 16.070543186838314,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 1.2519791351195408e-05,
+      "max_abs_after_difference_to_reference_lx": 1.2519791351195408e-05
+    },
+    {
+      "source_grid": 31,
+      "patches": 961,
+      "surface": "window_left",
+      "receiver_grid": [
+        51,
+        51
+      ],
+      "before_mean_lx": 12.809688622480124,
+      "after_mean_lx": 0.0,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 0.0,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "source_grid": 31,
+      "patches": 961,
+      "surface": "window_right",
+      "receiver_grid": [
+        51,
+        51
+      ],
+      "before_mean_lx": 12.80968862248012,
+      "after_mean_lx": 0.0,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 0.0,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "source_grid": 31,
+      "patches": 961,
+      "surface": "walkway",
+      "receiver_grid": [
+        81,
+        45
+      ],
+      "before_mean_lx": 16.0705404762042,
+      "after_mean_lx": 16.0705404762042,
+      "reference_source_grid": 31,
+      "max_abs_before_difference_to_reference_lx": 0.0,
+      "max_abs_after_difference_to_reference_lx": 0.0
+    }
+  ],
+  "receiver_grid_convergence": [
+    {
+      "surface": "window_left",
+      "receiver_grid": [
+        31,
+        31
+      ],
+      "source_grid": 31,
+      "sample_count": 961,
+      "before_min_lx": 8.674249532616802,
+      "before_mean_lx": 12.809842862223748,
+      "before_max_lx": 17.839139265124036,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.674249532616802,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.0002162375192860111,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "surface": "window_right",
+      "receiver_grid": [
+        31,
+        31
+      ],
+      "source_grid": 31,
+      "sample_count": 961,
+      "before_min_lx": 8.674249532616804,
+      "before_mean_lx": 12.809842862223746,
+      "before_max_lx": 17.83913926512404,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.674249532616804,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.00021623751928423474,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "surface": "walkway",
+      "receiver_grid": [
+        31,
+        31
+      ],
+      "source_grid": 31,
+      "sample_count": 961,
+      "before_min_lx": 6.159649268637322,
+      "before_mean_lx": 16.073068949588492,
+      "before_max_lx": 26.515525666374153,
+      "after_min_lx": 6.159649268637322,
+      "after_mean_lx": 16.073068949588492,
+      "after_max_lx": 26.515525666374153,
+      "mean_reduction_pct": 0.0,
+      "minimum_pointwise_retention_pct": 100.0,
+      "maximum_increase_lx": 0.0,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.0030280845933425837,
+      "abs_mean_after_difference_to_reference_lx": 0.0030280845933425837
+    },
+    {
+      "surface": "window_left",
+      "receiver_grid": [
+        61,
+        61
+      ],
+      "source_grid": 31,
+      "sample_count": 3721,
+      "before_min_lx": 8.614640689444153,
+      "before_mean_lx": 12.80966141656592,
+      "before_max_lx": 17.903709976199295,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.614640689444153,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 3.479186145760593e-05,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "surface": "window_right",
+      "receiver_grid": [
+        61,
+        61
+      ],
+      "source_grid": 31,
+      "sample_count": 3721,
+      "before_min_lx": 8.614640689444151,
+      "before_mean_lx": 12.80966141656592,
+      "before_max_lx": 17.9037099761993,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.614640689444151,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 3.479186145760593e-05,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "surface": "walkway",
+      "receiver_grid": [
+        61,
+        61
+      ],
+      "source_grid": 31,
+      "sample_count": 3721,
+      "before_min_lx": 5.979513033007715,
+      "before_mean_lx": 16.07052800659664,
+      "before_max_lx": 26.515398855847682,
+      "after_min_lx": 5.979513033007715,
+      "after_mean_lx": 16.07052800659664,
+      "after_max_lx": 26.515398855847682,
+      "mean_reduction_pct": 0.0,
+      "minimum_pointwise_retention_pct": 100.0,
+      "maximum_increase_lx": 0.0,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.00048714160148932706,
+      "abs_mean_after_difference_to_reference_lx": 0.00048714160148932706
+    },
+    {
+      "surface": "window_left",
+      "receiver_grid": [
+        91,
+        91
+      ],
+      "source_grid": 31,
+      "sample_count": 8281,
+      "before_min_lx": 8.594423736436632,
+      "before_mean_lx": 12.809626624704462,
+      "before_max_lx": 17.925482712362893,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.594423736436632,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.0,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "surface": "window_right",
+      "receiver_grid": [
+        91,
+        91
+      ],
+      "source_grid": 31,
+      "sample_count": 8281,
+      "before_min_lx": 8.594423736436632,
+      "before_mean_lx": 12.809626624704462,
+      "before_max_lx": 17.92548271236289,
+      "after_min_lx": 0.0,
+      "after_mean_lx": 0.0,
+      "after_max_lx": 0.0,
+      "mean_reduction_pct": 100.0,
+      "minimum_pointwise_retention_pct": 0.0,
+      "maximum_increase_lx": -8.594423736436632,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.0,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    },
+    {
+      "surface": "walkway",
+      "receiver_grid": [
+        91,
+        91
+      ],
+      "source_grid": 31,
+      "sample_count": 8281,
+      "before_min_lx": 5.91936765545713,
+      "before_mean_lx": 16.07004086499515,
+      "before_max_lx": 26.515076942889216,
+      "after_min_lx": 5.91936765545713,
+      "after_mean_lx": 16.07004086499515,
+      "after_max_lx": 26.515076942889216,
+      "mean_reduction_pct": 0.0,
+      "minimum_pointwise_retention_pct": 100.0,
+      "maximum_increase_lx": 0.0,
+      "mean_method": "arithmetic mean at uniform receiver-cell centers; midpoint estimate of area mean",
+      "reference_receiver_grid": [
+        91,
+        91
+      ],
+      "abs_mean_before_difference_to_reference_lx": 0.0,
+      "abs_mean_after_difference_to_reference_lx": 0.0
+    }
+  ],
+  "partial_occlusion_control": [
+    {
+      "source_grid": 13,
+      "before_lx": 14.91632647669501,
+      "after_lx": 6.8842872641260735,
+      "retained_fraction": 0.46152699023328264,
+      "absolute_error_from_symmetric_half_fraction": 0.03847300976671736
+    },
+    {
+      "source_grid": 21,
+      "before_lx": 14.916310148500436,
+      "after_lx": 7.1028985189516884,
+      "retained_fraction": 0.4761833488468833,
+      "absolute_error_from_symmetric_half_fraction": 0.023816651153116708
+    },
+    {
+      "source_grid": 31,
+      "before_lx": 14.916304658972411,
+      "after_lx": 7.217494663032933,
+      "retained_fraction": 0.4838661336064551,
+      "absolute_error_from_symmetric_half_fraction": 0.016133866393544916
+    },
+    {
+      "source_grid": 32,
+      "before_lx": 14.916304372547621,
+      "after_lx": 7.458152186273811,
+      "retained_fraction": 0.5,
+      "absolute_error_from_symmetric_half_fraction": 0.0
+    },
+    {
+      "source_grid": 64,
+      "before_lx": 14.916301095712766,
+      "after_lx": 7.458150547856384,
+      "retained_fraction": 0.5000000000000001,
+      "absolute_error_from_symmetric_half_fraction": 1.1102230246251565e-16
+    }
+  ],
+  "partial_control_inputs": {
+    "source": {
+      "center": [
+        0,
+        0,
+        6
+      ],
+      "width": 0.24,
+      "depth": 0.16,
+      "flux_lm": 3000,
+      "normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "shield": {
+      "y_plane": 0.25,
+      "x_min": 0,
+      "x_max": 0.4,
+      "z_min": 5.45,
+      "z_max": 6.1
+    },
+    "receiver_point": [
+      0,
+      4,
+      2
+    ],
+    "receiver_normal": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "partial_control_note": "Fixed symmetric control independent of inputs.json. Half source covered at x>=0. A center column lies exactly on the absorbing edge for odd grids; convergence is toward the symmetric half-flux limit.",
+  "window_quantity": "incident vertical illuminance on the external window plane; not indoor illuminance",
+  "retention_note": "minimum of after/before at points whose before value exceeds 1e-12 lux; not ratio of minima",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "elapsed_seconds": 37.338
+}

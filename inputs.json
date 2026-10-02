@@ -1,0 +1,16 @@
+{
+  "scenario": "assumed_residential_street_geometry",
+  "length_unit": "m",
+  "flux_unit": "lm",
+  "source": {"center": [0.0, 0.0, 6.0], "width": 0.24, "depth": 0.16, "flux_lm": 3000.0, "normal": [0.0, 0.0, -1.0]},
+  "shield": {"y_plane": 0.25, "x_min": -0.4, "x_max": 0.4, "z_min": 5.45, "z_max": 6.1, "thickness_m": 0.0, "opaque": true, "reflectance": 0.0},
+  "surfaces": [
+    {"id": "window_left", "label": "Window L", "plane": "y", "fixed": 4.0, "u_range": [-2.5, -0.5], "v_range": [1.0, 3.0], "normal": [0.0, -1.0, 0.0], "grid": [51, 51]},
+    {"id": "window_right", "label": "Window R", "plane": "y", "fixed": 4.0, "u_range": [0.5, 2.5], "v_range": [1.0, 3.0], "normal": [0.0, -1.0, 0.0], "grid": [51, 51]},
+    {"id": "walkway", "label": "Walkway", "plane": "z", "fixed": 0.0, "u_range": [-5.0, 5.0], "v_range": [-4.0, 1.5], "normal": [0.0, 0.0, 1.0], "grid": [81, 45]}
+  ],
+  "source_grid": 31,
+  "source_convergence_grids": [13, 21, 31],
+  "receiver_convergence_grids": [31, 61, 91],
+  "assumptions": ["uniform one-sided Lambertian horizontal area source", "equal-area midpoint source patches", "uniform receiver cell centers", "direct illuminance only", "opaque zero-thickness absorbing rectangular shield", "no reflections or other light sources", "all dimensions and flux are design assumptions, not measurements"]
+}
